@@ -1,0 +1,9 @@
+<div class = 'border padding'>
+<p><i>You said:</i></p>
+<%= params[:statement] %>
+</div>
+<div class = 'coachbody border padding'>
+<p><i>Your coach says:</i></p>
+<strong><%= @answer%></strong>
+</div>
+<br><%=link_to 'Ask a new question', '/ask'%><br>

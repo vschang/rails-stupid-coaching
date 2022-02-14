@@ -1,0 +1,26 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+$yellow: #FFFFE0	;
+$grey: #A9A9A9	;
+
+.coachbody {
+  background: $yellow; // Using this variable
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+.border {
+  border-left: 3px solid;
+  border-color: $grey;
+}
+
+.padding{
+  padding-left: 10px;
+  
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
